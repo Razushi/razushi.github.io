@@ -6,6 +6,7 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+    "deploy": "astro build && npx gh-pages -d dist",
     "astro": "astro"
   },
   "dependencies": {
@@ -14,5 +15,8 @@
     "projects-epithet": "file:",
     "svelte": "^5.19.0",
     "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
